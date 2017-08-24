@@ -6,8 +6,15 @@
 
 
 body{
-  background-color: lime;
+  // background-color: lime;
+  background-image: url("./../img/cooking.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 
 
 .test{
