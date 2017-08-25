@@ -9,8 +9,8 @@ angular.module("recipeBook", ["ui.router"]).config(function($stateProvider, $url
     controller: "mainCtrl"
   })
 
-  .state("addRecipe", {
-    url: "/addRecipe",
+  .state("addrecipe", {
+    url: "/addrecipe",
     templateUrl: "./views/addRecipeTmpl.html",
     controller: "mainCtrl"
   })
